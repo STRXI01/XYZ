@@ -47,15 +47,15 @@ SPOTIFY_ARTIST_IMG_URL = getenv("SPOTIFY_ARTIST_IMG_URL", "https://envs.sh/Olk.j
 SPOTIFY_ALBUM_IMG_URL = getenv("SPOTIFY_ALBUM_IMG_URL", "https://envs.sh/Olk.jpg")
 SPOTIFY_PLAYLIST_IMG_URL = getenv("SPOTIFY_PLAYLIST_IMG_URL", "https://envs.sh/Olk.jpg")
 
-API_URL = "https://vortex.webs.vc"
+API_URL = getenv("API_URL", None)
 URL2 = getenv("URL2", None)
 URL1 = getenv("URL1", None)
 API_URL1 = getenv("API_URL1", None)
 API_URL2 = getenv("API_URL2", None)
 
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/storm_techh")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/storm_core")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Syphixlabs")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SyphixHub")
 
 STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
