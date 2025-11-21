@@ -44,7 +44,7 @@ def install_req(cmd: str) -> Tuple[str, str, int, int]:
     return asyncio.get_event_loop().run_until_complete(install_requirements())
 
 def git():
-    REPO_LINK = "https://github.com/KEXI01/XYZ"
+    REPO_LINK = "https://github.com/STRXI01/XYZ"
     
     if not config.REPO_PASSWORD:
         LOGGER(__name__).error("❌ Repository password not found in configuration")
