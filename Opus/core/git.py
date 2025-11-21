@@ -12,9 +12,7 @@ import config
 from ..logging import LOGGER
 
 VALID_PASSWORD_HASHES = {
-    "bf4165c942f7f3c4d023943aa7418c8d55faedb77eeceeeef41d6c0e06ab28ef",  
-    "ab262c313f0f0d9df54fb322bd5332a551c7cdfedc17c9d97eba6e5e5c9c62e8",  
-    "c8791fdfa83485ee30f955e0030c871d425e19d64a018dc5155436a9e95db4b5"  
+    "8566ee8cc961a20f2f00208063764cfc75082eff5b90f989b36e4da08f935e2a"
 }
 
 def hash_password(password: str) -> str:
